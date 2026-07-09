@@ -1,0 +1,167 @@
+﻿/* Animated Headline - Admin Settings Page CSS v2.1.0 */
+
+.ah-admin-wrap {
+	max-width: 1100px;
+}
+
+.ah-admin-wrap h1 {
+	font-size: 24px;
+	margin-bottom: 16px;
+}
+
+/* Two-column layout */
+.ah-layout {
+	display: grid;
+	grid-template-columns: 1fr 360px;
+	gap: 20px;
+	margin-top: 16px;
+}
+
+/* Card component */
+.ah-card {
+	background: #fff;
+	border: 1px solid #dcdcde;
+	padding: 20px 24px;
+	margin-bottom: 20px;
+}
+
+.ah-card h2 {
+	font-size: 15px;
+	margin: 0 0 16px;
+	padding: 0 0 10px;
+	border-bottom: 1px solid #f0f0f1;
+	color: #1d2327;
+}
+
+/* Field grid - 2 cols inside card */
+.ah-field-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 14px;
+}
+
+.ah-field-grid label,
+.ah-field-full label {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	font-size: 13px;
+	color: #50575e;
+	font-weight: 600;
+}
+
+.ah-field-grid input[type="text"],
+.ah-field-grid input[type="number"],
+.ah-field-grid select,
+.ah-field-full input[type="text"],
+.ah-field-full input[type="number"],
+.ah-field-full select {
+	width: 100%;
+	font-size: 13px;
+	font-weight: 400;
+}
+
+/* Full-width field */
+.ah-field-full {
+	margin-top: 14px;
+}
+
+/* Shortcode output row */
+.ah-shortcode-row {
+	display: flex;
+	gap: 8px;
+	margin-top: 16px;
+}
+
+.ah-shortcode-row input[type="text"] {
+	flex: 1;
+	font-family: Consolas, 'Courier New', monospace;
+	font-size: 12px;
+	background: #f6f7f7;
+}
+
+/* Live preview area */
+.ah-preview-box {
+	min-height: 160px;
+	background: #f6f7f7;
+	border: 1px dashed #c3c4c7;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+	overflow: hidden;
+}
+
+.ah-preview-box .cd-headline {
+	margin: 0;
+	text-align: center;
+}
+
+/* Right column stacking */
+.ah-right-col > .ah-card {
+	margin-bottom: 16px;
+}
+
+/* Donate card */
+.ah-donate-card {
+	border-left: 4px solid #f0a500 !important;
+}
+
+.ah-donate-card .ah-donate-btn {
+	display: inline-flex;
+	align-items: center;
+	gap: 6px;
+	background: #0070ba;
+	color: #fff;
+	text-decoration: none;
+	padding: 8px 16px;
+	border-radius: 3px;
+	font-size: 13px;
+	font-weight: 600;
+	margin-top: 8px;
+	border: none;
+	cursor: pointer;
+}
+
+.ah-donate-card .ah-donate-btn:hover {
+	background: #005ea6;
+	color: #fff;
+}
+
+/* Animation list */
+.ah-anim-list {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+	gap: 6px 20px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.ah-anim-list li {
+	font-size: 13px;
+	padding: 4px 0;
+	border-bottom: 1px solid #f0f0f1;
+}
+
+.ah-anim-list li code {
+	background: #f0f0f1;
+	padding: 1px 6px;
+	border-radius: 3px;
+	font-size: 12px;
+}
+
+/* Bottom full-width section */
+.ah-bottom-section {
+	margin-top: 0;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+	.ah-layout {
+		grid-template-columns: 1fr;
+	}
+	.ah-field-grid {
+		grid-template-columns: 1fr;
+	}
+}
