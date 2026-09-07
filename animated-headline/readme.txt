@@ -1,6 +1,9 @@
 ﻿=== Animated Headline ===
 Contributors: anshuln90
-Tags: animated headline, headline, shortcode, animation, text animation, gutenberg, elementor, wpbakery, animation effect, anshulg90, anshul, wordpress
+Tags: animated headline, text animation, shortcode, gutenberg, elementor
+Author: Anshul G.
+Author URI: https://profiles.wordpress.org/anshuln90/
+Donate link: http://www.paypal.me/anshulgangrade
 Requires at least: 6.0
 Tested up to: 7.0
 Requires PHP: 7.4
@@ -8,7 +11,7 @@ Stable tag: 5.0
 License: GPLv2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Animated Headline lets you add beautiful animated headline text to posts, pages, and widgets with a simple shortcode, Gutenberg block, Elementor widget, or WPBakery element.
+Add animated headlines to posts, pages, and widgets using a shortcode, Gutenberg block, Elementor widget, or WPBakery element.
 
 == Description ==
 
